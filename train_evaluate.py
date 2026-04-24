@@ -14,7 +14,7 @@ from ml_pipeline import (
 
 warnings.filterwarnings("ignore")
 
-raw_df = pd.read_csv("house_prices.csv", usecols=RAW_COLUMNS, low_memory=False)
+raw_df = pd.read_csv("house_prices.zip", usecols=RAW_COLUMNS, low_memory=False)
 print(f"Raw shape: {raw_df.shape}")
 
 processed_df = preprocess_data(raw_df)

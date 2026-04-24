@@ -10,6 +10,7 @@ The application utilizes an XGBoost Regressor trained on real estate data to pro
 Dashboard Screenshot
 
 **Key Features**
+
 Interactive User Interface: Built with Streamlit for seamless user input and visualization.
 
 Data Processing: Custom parsing functions to handle complex formats (e.g., converting "1.5 Cr" to numerical values).

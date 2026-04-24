@@ -11,8 +11,11 @@ Dashboard Screenshot
 
 **Key Features**
 Interactive User Interface: Built with Streamlit for seamless user input and visualization.
+
 Data Processing: Custom parsing functions to handle complex formats (e.g., converting "1.5 Cr" to numerical values).
+
 Model Performance: Real-time price estimation with R-squared metrics and feature importance visualization.
+
 Modular Architecture: Separation of concerns between the training pipeline (ml_pipeline.py) and the web application (app.py).
 
 **Tech Stack**

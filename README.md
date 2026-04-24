@@ -60,6 +60,7 @@ Features: Location, Carpet Area, BHK, Transaction Type, Furnishing, etc.
 
 **Author**
 Muhammad Ismail Iqbal
+
 GitHub: @ismailiqbal2773
 
 **License**

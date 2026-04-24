@@ -6,9 +6,6 @@ This project is an end-to-end Machine Learning web application designed to predi
 
 The application utilizes an XGBoost Regressor trained on real estate data to provide instant price predictions in INR (Indian Rupees).
 
-**Dashboard Preview**
-Dashboard Screenshot
-
 **Key Features**
 
 Interactive User Interface: Built with Streamlit for seamless user input and visualization.

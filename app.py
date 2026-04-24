@@ -25,7 +25,7 @@ st.set_page_config(
 
 @st.cache_resource(show_spinner=False)
 def get_training_artifacts() -> tuple[dict, pd.DataFrame]:
-    raw_df = pd.read_csv("house_prices.csv", usecols=RAW_COLUMNS, low_memory=False)
+    raw_df = pd.read_csv("house_prices.zip", usecols=RAW_COLUMNS, low_memory=False)
     processed_df = preprocess_data(raw_df)
     artifacts = train_model(processed_df)
     return artifacts, processed_df
